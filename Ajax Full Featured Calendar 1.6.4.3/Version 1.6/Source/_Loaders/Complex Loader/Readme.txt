@@ -1,0 +1,2 @@
+This is a improved loader, where you are able to do filtering and manage sessions. Usefull to login systems where each user has its own 
+data on the calendar and if you want to apply more sql conditions to the calendar without directly editing the php class. Take demos as example.

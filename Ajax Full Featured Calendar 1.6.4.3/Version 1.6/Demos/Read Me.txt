@@ -1,0 +1,70 @@
+Inside these folders you find demos:
+
+----------------------------
+Modal View > Simple:
+----------------------------
+
+- Demo1 => Shows a basic calendar, where users can add events (basic loader.php)
+
+- Demo2 => Shows the same basic calendar but with filter functionalities (loader.php only file changed)
+
+- Demo3 => Show the same basic calendar but with the search functionality (loader.php "with search" only file changed)
+
+----------------------------
+Modal View > Admin Panel:
+----------------------------
+
+For the admin panel (use the demo connection.php, loader.php "or the proper loader" they differ from the Modal View > Simple)
+
+- Demo1 => This is the same as the Demo1 from the above (but users need to login in order to post data to calendar), but its only protected to a admin area so as it is protected it requires another loader.php (advanced loader)
+
+- Demo2 => This is the same as the Demo2 from the above (but users do not edit or post content and they can see events without login)
+
+- Demo3 => This is a different approach of the Demo2 (Simple) but it only supports private events, this means that each user sees his own created event. (Do not forget the loader.php and to update your database tables or import the sql file from the folder)
+
+* The css file is abit different from the css of the above demo due to admin panel
+
+----------------------------
+Modal View > Integration:
+----------------------------
+
+This is just a demo I have added so that you can have a look how you can use it and the loader.php file to integrate
+it on your own applications
+
+
+----------------------------
+Pure PHP:
+----------------------------
+
+On This version on see your events on a new page rather than on a modal. I could have created variations of this but
+you can see how it is easy to create variations out of it. On this one, it just uses a different loader.php and one line
+of php code on the index.php page to point the event id to display it on another page. It uses the same files as for the
+modal version!
+
+
+-----------------------------
+Bootstra 2.X VS Bootstrap 3.X
+-----------------------------
+
+There are no programing differences between then, the only differences are the styles from the HTML codes, the bootstrap
+3.x uses the same jquery.calendar.js file from bootstrap 2.x but I removed the class 'input-block-level' to 'form-control' so
+that your forms look better!
+
+--------------------------------------------------------------------------------------------------------------------------
+
+As you can see across the demos it changes the loader.php file with the apropriate one, so you can do
+wathever changes you want but do not forget to use the apropriate loader to benefict the functions from the demo.
+
+The html code to display the modal does not changes accross the pages / your creations. Just worry about making your site
+nice and with the css than fighting with sample/references/options/core codes.
+
+PLEASE NOTE:
+There are so many demo files and you can get confused especially if you add an event and nothing appears or nothing is shown this is due to the databases and connection.php file. Some demos you can use the same database and tables, but others required that you at least have the full columns on the table. For Demos2 and Demos3 and PHP Version for they to work you need to use the .sql files included on the folders because they have new columns and tables.
+
+
+Sometimes drop me a mail with suggestion to improve this or with the website you are using this so I can see how you are
+using and see what can be improved for you! 
+
+
+Thanks,
+Paulo

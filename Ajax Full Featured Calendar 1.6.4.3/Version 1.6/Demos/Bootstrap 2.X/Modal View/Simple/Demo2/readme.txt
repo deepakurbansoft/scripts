@@ -1,0 +1,1 @@
+Use the 'connection.php' found at 'includes' to configure your database and categories

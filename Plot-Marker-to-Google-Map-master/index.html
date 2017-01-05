@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOd_sIuQqaqYOMP6LjPiNzR8Mqx6LhCtY&sensor=true"></script>
+
+        <script type="text/javascript"
+                src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.js">
+        </script>
+        <script>
+            var map;
+            var markerLocations = [];
+            var infoWindow = new google.maps.InfoWindow();
+            var lat, lng;
+            function onPositionUpdate(position)
+            {
+                lat = position.coords.latitude;
+                lng = position.coords.longitude;
+                //alert("Current position: " + lat + " " + lng);
+            }
+
+            if(navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(onPositionUpdate);
+            } else {
+                alert("navigator.geolocation is not available");
+            }
+            
+            function initialize() {
+                
+                if(lat && lng){
+                    var myOptions = {
+                        zoom: 15,
+                        center: new google.maps.LatLng(lat, lng),
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+                } else {
+                    var myOptions = {
+                        zoom: 15,
+                        center: new google.maps.LatLng(40.714623, -74.006605),
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+                }
+
+                map = new google.maps.Map(document.getElementById("map"), myOptions);
+                getLocations();
+            }
+            function getLocations() {
+                
+                $.ajax({
+                    type: "GET",
+                    url: "data.php",
+                    dataType: 'JSON',
+                    success: function(json){
+                        $.each(json, function(i, entry){
+                            if(entry.type == 'factual')
+                                color = 'blue';
+                            else if(entry.type == 'deals')
+                                color = 'green';
+                            else if(entry.type == 'location')
+                                color = '#ff0000';
+                            else if(entry.type == 'hunts_trek' || entry.type == 'hunts_clue')
+                                color = 'purple';
+                            else if(entry.type == 'events')
+                                color = '#ffff00';
+                            PlotMarker(entry.latitude, entry.longitude,entry.company_name+": "+entry.title, color);
+                        });
+                        
+                    },
+                    error: function(err){
+                        console.log(err);
+                    }
+                });
+            }
+
+            function PlotMarker(lat, lon, title, color){
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(lat, lon),
+                    map: map,
+                    draggable: false,
+                    animation: google.maps.Animation.DROP,
+                    icon: {
+                        // Star
+                        path: 'M 0,-24 6,-7 24,-7 10,4 15,21 0,11 -15,21 -10,4 -24,-7 -6,-7 z',
+                        fillColor: color,
+                        fillOpacity: 1,
+                        scale: 1/4,
+                        strokeColor: '#bd8d2c',
+                        strokeWeight: 1
+                    }
+                });
+                google.maps.event.addListener(marker, 'click', function() {
+                  infoWindow.setContent(title);
+                  infoWindow.open(map, marker);
+                });
+                markerLocations.push(marker);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+
+        </script>
+        <style type="text/css">
+            #map{
+                height: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="map"></div>
+    </body>
+</html>
