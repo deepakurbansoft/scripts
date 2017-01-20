@@ -1,0 +1,191 @@
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -82px 0;
+    /* Pad bottom by footer height */
+    padding: 0 0 80px 0;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.cbpc_bg{
+    background-color: #01657B;
+    color: #ffffff;
+}
+
+.cbpc_btn{
+    background-color: #01657B;
+    color: #ffffff;
+    border-color: #01657B;
+}
+
+.cbpc_btn:hover{
+    background-color: #24899E;
+    color: #ffffff;
+    border-color: #01657B;
+}
+
+.cbpc_btn:focus{
+    color: #ffffff;
+}
+
+#wrap > .center-container {
+    padding: 50px 0 0 0;
+    margin:0;
+}
+
+#footer > .container {
+    padding-top:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.center-container {
+    height:100%;
+    display: table;
+    width:100%;
+    margin:0;
+}
+
+.center-row {
+    height:50%;
+    width:100%;
+    display: table-row;
+}
+
+.center-row > div {
+    height:100%;
+    width:50%;
+    display: table-cell;
+    border:1px solid #eee
+}
+
+.navbar-header a{
+    color: #ffffff !important;
+}
+
+.active a{
+   background-color: #ffffff !important;
+    color: #000 !important;
+}
+
+/*span{*/
+    /*color: #2E496D;*/
+/*}*/
+.couponlist
+{
+padding:15px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #045CAE;
+    padding: 20px;
+}
+
+.featured_img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+}
+
+.navbar-nav li a{
+    color: #ffffff !important;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #01657B !important;
+}
+
+.modal_coupon{
+    position: relative;
+    margin: 0 auto;
+}
+
+.simplePagerContainer ul{
+    padding: 0 !important;
+}
+
+.checkbox input[type="checkbox"]{
+    width: 16px;
+    height: 18px;
+    margin-top:0;
+    cursor: pointer;
+}
+
+.modal-body{
+    padding: 0px;
+}
+
+.modal-body .close{
+    position: absolute;
+}
+
+/*.modal-dialog{*/
+    /*min-width: 300px;*/
+/*}*/
+.modal-dialog{text-align:center;}
+.modal-content{display:inline-block;}
+.close{opacity: 1;right: 10px;z-index: 5;}
+.cbpc_white{background: #ffffff; color: #000;}
+.couponbook_modal{background:#01657B;color: #ffffff; }
+.couponbook_modal button{color: #ffffff; }
+.modal-dialog .modal-content{border-radius: 0px;}
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.pagination3{
+    padding-left: 0px !important;
+}
+
+/*Loading*/
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/Preloader_2.gif) center no-repeat #fff;
+}

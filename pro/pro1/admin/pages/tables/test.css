@@ -1,0 +1,90 @@
+#copyright .col.span_5 {
+    margin-top: 33px;
+}
+#copyright #social {
+    margin: 33px 50px 0 0;
+}
+#easy-opt-in-widget-2 {
+    position: fixed;
+    right: 0;
+    top: 91px;
+    z-index: 0;
+}
+polygon {
+    display: none;
+}
+.fca_eoi_layout_headline_copy_wrapper.fca_eoi_form_text_element {
+    margin: 0 !important;
+    padding: 0 !important;
+}.fca_eoi_form {
+     border-radius: 15px;
+     margin: auto;
+ }
+#fca_eoi_form_3200 div.fca_eoi_layout_2 div.fca_eoi_layout_content_wrapper, #fca_eoi_form_3200 form.fca_eoi_layout_2 div.fca_eoi_layout_content_wrapper {
+    background: rgba(0, 0, 0, 0) url("/wp-content/uploads/2016/03/newsletter-back.png") no-repeat scroll center bottom / contain ;
+    margin: 0 !important;
+    padding: 6px;
+    width: 100%;
+}
+input[type="text"], textarea, input[type="email"], input[type="password"], input[type="tel"], input[type="url"], input[type="search"], input[type="date"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #efefef;
+    border-color: -moz-use-text-color -moz-use-text-color #fff;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.09) inset;
+    color: #555;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0 !important;
+    transition: all 0.2s linear 0s;
+    width: 100%;
+}
+.fca_eoi_layout_postbox, .fca_eoi_layout_popup, .fca_eoi_layout_widget {
+    border: 1px solid transparent;
+    font-family: sans-serif;
+    text-align: center;
+    width: 90% !important;
+}
+.fca_eoi_layout_inputs_wrapper > div {
+    width: 100% !important;
+}
+.fca_eoi_layout_headline_copy_wrapper.fca_eoi_form_text_element > div {
+    font-size: 13px !important;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+form .fa.fa-user, .fa.fa-envelope {
+    display: none !important;
+}
+#fca_eoi_form_3200 div.fca_eoi_layout_2 div.fca_eoi_layout_field_inner, #fca_eoi_form_3200 form.fca_eoi_layout_2 div.fca_eoi_layout_field_inner {
+    margin: 0 !important;
+}
+#fca_eoi_form_3200 .fca_eoi_layout_2.fca_eoi_layout_widget div.fca_eoi_layout_submit_button_wrapper input {
+    background-color: #a85f59 !important;
+    border-bottom-color: #795451 !important;
+    border-width: 0;
+    color: #fff !important;
+    font-size: 16px !important;
+    padding: 0 !important;
+    width: 75% !important;
+}
+.fca_eoi_form_input_element {
+    font-size: 12px !important;
+}
+#fca_eoi_form_3200 div.fca_eoi_layout_2 div.fca_eoi_layout_content_wrapper, #fca_eoi_form_3200 form.fca_eoi_layout_2 div.fca_eoi_layout_content_wrapper {
+    margin: 0 3px !important;
+}
+#fca_eoi_form_3200 div.fca_eoi_layout_2 div.fca_eoi_layout_inputs_wrapper, #fca_eoi_form_3200 form.fca_eoi_layout_2 div.fca_eoi_layout_inputs_wrapper {
+    padding: 10px;
+}
+#fca_eoi_form_3200 div.fca_eoi_layout_2 div.fca_eoi_layout_inputs_wrapper, #fca_eoi_form_3200 form.fca_eoi_layout_2 div.fca_eoi_layout_inputs_wrapper {
+    margin: 0 !important;
+}

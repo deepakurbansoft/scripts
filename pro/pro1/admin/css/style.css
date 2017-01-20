@@ -1,0 +1,22 @@
+body{
+    background-image: url("../images/coupons_bg.jpg") !important;
+}
+.login-box{
+    background-color: #01657B;
+}
+#error {
+    background-color: #ff0000;
+    padding: 15px;
+    margin: 15px 0px;
+    text-align: center;
+    color: #fff;
+
+}
+.loguser
+{
+    text-transform: capitalize;
+}
+
+.custom_spin{
+    color: #3c8dbc;
+}

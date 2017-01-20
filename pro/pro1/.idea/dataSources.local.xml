@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - cbpc@localhost" uuid="1f16c321-7f9b-4a65-9d2f-7386e68007a6">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>cbpc.*</schema-pattern>
+      <default-schemas>cbpc.*</default-schemas>
+    </data-source>
+  </component>
+</project>

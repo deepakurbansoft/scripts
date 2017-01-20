@@ -1,0 +1,2338 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+#header-outer {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    /* background-color: rgba(82, 163, 188, 0.4) !important;*/
+}
+.page #header-outer.small-nav {
+    background: rgba(255, 255, 255, 0.90) !important;
+}
+.swiper-slide .content { color:#0033cc;
+    font-size: 25px!important;
+}
+.home .admin-bar #header-outer, .logged-in.buddypress #header-outer{
+    background-color: rgba(81, 162, 188, 0.8);
+    background-image: url("/horizantal//wp-content/uploads/2016/04/header_bg.png");
+}
+.sf-menu ul{
+    display:none;
+}
+body .full-width-section.parallax_section .row-bg.translate, body .full-width-content.parallax_section .row-bg.translate{
+    background-attachment: fixed!important;
+}
+
+.wpb_row .row-bg-wrap {
+    background-color:#ffffff;
+}
+#header-space {
+    height: auto !important;
+}
+
+.g a {
+    display:none;
+    padding:5px;
+}
+.ascend #footer-outer #footer-widgets .col ul li a, .ascend #sidebar div ul li a {
+    display: inline !important;
+}
+
+.span_5 {
+    text-align:center;
+    width:90%;
+}
+
+.swiper-slide .content h2  { margin-bottom:auto;}
+
+
+.box { background-color:#ffffff!important; }
+
+/*.cl-flipbox-front-h { background-color:gray;opacity:0.4px;}*/
+
+#footer-outer .row { padding-bottom :0px!important; }
+#footer-outer .row { padding-top :0px!important; }
+
+#fws_5718db7c124ab { padding-top:0px;padding-bottom:0px!important}
+
+i.icon-3x.steadysets-icon-file.extra-color-1 {
+    border-radius: 0px;
+}
+.icon-3x .circle-border {
+    border-radius: 0px;
+}
+.small-nav .stnd.default-logo {
+    display: none !important;
+}
+.small-nav .retina-logo  {
+    display: block !important;
+}
+.icons_image {
+    text-align: center;
+}
+.icons_hover{
+    text-align: center;
+}
+
+.icons_image img {
+    background-color: #3A79AF;
+    border: 1px solid #3A79AF;
+    border-radius: 6px;
+    padding: 10px;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    overflow:hidden;
+}
+
+.ima_sli {
+    float: right;
+    margin-top: 35px !important;
+    width: 68%;
+}
+.icons_image img:hover {
+    transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+
+}
+.colo_text {
+    height: 260px;
+}
+.colo_text .iwt-text span {
+    color: #fff !important;
+}
+.colo_text .iwt-icon .accent-color {
+    color: #fff !important;
+}
+.colo_text .iwt-text p{
+    color: #fff !important;
+    font-size: 15px;
+}
+.colo_text {
+    padding-top: 4% !important;
+}
+.colo_text:hover {
+    background: rgba(57, 121, 174, 0.5) none repeat scroll 0 0;
+    top: -10px;
+    box-shadow: 6px 5px 2px rgba(57, 121, 174, 0.32);
+}
+
+.no-masonry .nectar-love-wrap {
+    display: none;
+}
+.no-masonry .work-meta > p {
+    display: none;
+}
+
+.no-masonry.portfolio-items .work-meta {
+    color: #999;
+    float: left;
+    font-size: 11px;
+    text-align: left;
+    width: 100% !important;
+}
+.center_icon .iwt-icon {
+    position: relative;
+    text-align: center;
+}
+.center_icon .iwt-icon i {
+    font-size: 66px !important;
+}
+.center_icon .iwithtext .iwt-text {
+    padding: 10px 10px 10px;
+}
+.center_icon .iwt-icon .icon-default-style.extra-color-1{
+    color: #b1823a !important;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+
+}
+.center_icon .iwt-icon .icon-default-style.extra-color-1:hover {
+    transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+
+}
+//.page-id-1104 #top .sf-menu li a {
+  //    color: #000 !important;
+  //}
+.page-id-1100 .hover {
+    border: 3px dashed #3a79af;
+    font-size: 17px;
+    height: 225px;
+    line-height: 27px;
+    padding: 17px;
+    background-color:#fff;
+    opacity:0.75;
+    margin-top:0px;
+}
+.cl-popup-box-content > img {
+    width: 100%;
+}
+.list_icon li {
+    list-style: outside none none !important;
+    margin-bottom: 10px;
+}
+.list_icon .fa-arrow-right {
+    color: #3a79af;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.bg_trans .row-bg-wrap {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.list_icon.kitchen > li {
+    color: #3a79af;
+    font-size: 16px;
+}
+.kitchen .fa-arrow-right {
+    color: #3a79af;
+}
+
+.list_icon .qaassurance> li {
+    color: #000;
+    /*  font-size: 16px;*/
+}
+.qaassurance .fa-arrow-right {
+    color: #000;
+}
+.row .col p:last-child {
+    padding-bottom: 22px;
+}
+/*.img-with-animation.animated-in { padding-top: 38px;
+}*/
+textarea {
+    height: 100px;
+}
+.single-portfolio #sidebar {
+    text-align: center;
+    width: 100% !important;
+}
+.single-portfolio #post-area {
+    margin: 0 auto;
+    text-align: center;
+    width: 100% !important;
+}
+.single-portfolio #post-area > img {
+    float: none !important;
+}
+.single-portfolio #header-space {
+    height: 56px !important;
+}
+.single-portfolio #project-meta {
+    display: none;
+}
+#footer-outer {
+    /*    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/07/field.jpg") !important;  */
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    /*  background-color:transparent !important; */
+    background-position: center -40px;
+}
+#copyright .col.span_5.left {
+    width: 100% !important;
+    margin:0 auto !important;
+}
+.social_icons_footer.right li{
+    display:inline;
+    float:left;
+
+}
+#copyright p {
+    padding-bottom: 0 !important;
+}
+.menu_list li a {
+    text-transform: uppercase !important;
+}
+.display-hide{
+    display:none;
+}
+
+.widget.widget_text {
+    margin-bottom: 0 !important;
+}
+#footer-widgets h4 {
+//  border-bottom: 2px solid;
+    font-size: 18px !important;
+    width: 50%;
+}
+#footer-outer .social_icons_footer.right li {
+
+    border-radius: 5px;
+    float: left;
+    margin-left: 10px;
+    padding: 5px 10px;
+    text-align: center !important;
+    width: 40px;
+}
+#footer-outer .right .fa-facebook1{
+    background: #004B9A !important;
+}
+#footer-outer .right .fa-twitter1{
+    background: #2EACF6 !important;
+}
+#footer-outer .right .fa-google-plus1{
+    background: #EA4335 !important;
+}
+#footer-outer .right .fa-instagram1{
+    background: #B07452 !important;
+
+}
+#footer-outer .right .fa-facebook {
+    color:#fff !important;
+    margin-top: 5px;
+}
+#footer-outer .right .fa-twitter{
+    color:#fff !important;
+}
+#footer-outer.right .fa-google-plus{
+    color:#fff !important;
+}
+#footer-outer .right .fa-instagram{
+    color:#fff !important;
+
+}
+#footer-widgets .col.span_6 {
+    width: 100% !important;
+}
+
+#menu-footer-menu li {
+    float: left;
+    margin-right: 10px;
+}
+#menu-footer-menu .current-menu-item {
+    margin-top: 4px;
+}
+.width form.wpcf7-form {
+    width: 70%;
+}
+
+.container-wrap input[type="text"], .container-wrap textarea, .container-wrap input[type="email"], .container-wrap input[type="password"], .container-wrap input[type="tel"], .container-wrap input[type="url"], .container-wrap input[type="search"], .container-wrap input[type="date"]{
+    padding: 0px!important;
+}
+..container-wrap input{
+    padding: 0px !important;
+}
+
+.wpcf7-form-control-wrap your-name{
+    padding:0px!important;
+}
+
+.wpcf7 .wpcf7-form .wpcf7-form-control-wrap your-name{
+    padding:0px!important;
+}
+
+.width .wpcf7-form .wpcf7-form-control {
+    padding: 0px !important;
+}
+.portfolio-items .vert-center > p {
+    display: none !important;
+}
+.margin_bott {
+    margin-bottom: 0;
+}
+.center_icon .iwt-icon > img {
+    width: 14%;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+.center_icon .iwt-icon > img:hover {
+    transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+}
+.same_icons .iwt-text {
+    padding: 0 !important;
+}
+#bg_none .row-bg-wrap {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+}
+
+.page-id-1104 .full-width-section
+{  background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/05/bgbox-new.png");
+    background-position: -1% 45%;
+    background-repeat: no-repeat;
+    background-size: initial;
+}
+.con_width .row-bg.using-image {
+    background-size: 100% 100%;
+    opacity:0.44;
+}
+.row .col p:last-child {
+    padding-bottom: 0px !important;
+}
+.icon_mep li {
+    display: inline;
+    float: left;
+    list-style: outside none none !important;
+    text-align: center;
+    width: 20%;
+}
+.icon_mep img {
+    width: 24% !important;
+    margin-bottom:10px !important;
+}
+.icon_mep.center_con {
+    float: left;
+    left: 10% !important;
+    margin-top: 2% !important;
+    position: relative;
+    width: 100%;
+}
+div.wpcf7-response-output {
+
+    padding: 0.2em 1em;
+}
+.ascend .container-wrap button[type="submit"]  {  padding:13px 15px!important;}
+.wpcf7-form-control.wpcf7-submit {
+    float: right;
+}
+.ima_sli.aa {
+// margin-top: 23px !important;
+//  width: 83% !important;
+// width: 100% !important;
+    margin-top:5% !important;
+    width:80% !important;
+}
+.tab_titles {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ececec;
+    padding: 0 20px 20px 20px!important;
+    height: 300px;
+}
+.list_contact > li {
+    list-style: outside none none !important;
+}
+.list_contact {
+    margin: 0 !important;
+}
+.list_contact .fa {
+    margin-right: 10px;
+}
+.padd p {
+    padding-bottom: 18px;
+}
+.wpb_tabs_nav.ui-tabs-nav.clearfix {
+    margin-bottom: 25px !important;
+    background-color:#6EB1C6;
+    color:#000;
+}
+.tab_titles {
+    height:auto !important;
+}
+
+.active_texture {
+    background: rgba(58, 121, 175, 0) none repeat scroll 0 0!important;
+}
+
+#ajax-content-wrap .tabbed .wpb_tabs_nav .active-tab {
+    background: #88c9dd none repeat scroll 0 0 !important;
+    color: #fff !important;
+}
+/*.page-id-26 .wpb_alert p:last-child, #content .wpb_alert p:last-child, .wpb_text_column p:last-child, .wpb_text_column *:last-child, #content .wpb_text_column p:last-child, #content .wpb_text_column *:last-child, .wpb_toggle_content p:last-child
+{
+	line-height:1.9!important;
+}
+*/
+.main-content ul li {
+    list-style: outside square none;
+}
+.page-id-1072 .main-content ul li:before {
+    color:#B1823A;
+}
+.page-id-1072 .tab_titles {
+    padding: 0 20px;
+}
+.top-heading {
+    margin-top: 4%;
+}
+#ajax-content-wrap .wpcf7-form-control.wpcf7-submit{
+    padding: 10px 17px!important;
+}
+.page-id-1083 .wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+    margin-bottom: 13px;
+}
+page-id-1089 .wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+    margin-bottom: 13px;
+}
+
+#ajax-content-wrap .swiper-wrapper .slider-down-arrow i.icon-default-style[class^="icon-"]{
+    font-size: 50px !important;
+}
+
+.center_icon .iwt-icon i {
+    font-size: 50px !important;
+}
+.container-wrap, body.single-portfolio .container-wrap, body.page-template-template-portfolio-php .container-wrap, body.tax-project-type .container-wrap{
+    margin-top: 0 !important;
+    padding-bottom: 0px !important;
+    padding-top: 15px;
+}
+.iwt-text > p{
+    line-height:20.3px!important;
+}
+
+.page-id-551 .wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button   #fws_572c2558caf06{
+    margin-bottom: 0px!important;
+}
+
+.page-id-551 .icons_image > p{
+    padding-bottom: 10px!important;
+}
+//CHECKING LINE SPACE:
+      /*.dbgrp, .page-id-1104 .wpb_alert p:last-child, #content .wpb_alert p:last-child, .wpb_text_column p:last-child, .wpb_text_column *:last-child, #content .wpb_text_column p:last-child, #content .wpb_text_column *:last-child, .wpb_toggle_content p:last-child {
+            line-height: 1.7;
+      }
+      */
+  .dbgrp, .page-id-1104 .wpb_alert p:last-child, #content .wpb_alert p:last-child, .wpb_text_column p:last-child, #content .wpb_text_column p:last-child,  .wpb_toggle_content p:last-child {
+      line-height: 1.7;
+  }
+//END
+  .page-id-1098 ,.page-id-1085 ,.page-id-1091  .wpb_wrapper > p{
+      padding-bottom: 10px;
+  }
+.page-id-1098 .wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+    margin-bottom: 16px;
+}
+.page-id-1098 .wpb_row.vc_row-fluid.vc_row.full-width-section.standard_section {
+    padding-top: 10px!important;
+    padding-bottom:10px!important;
+
+}
+.page-id-1091 .center_icon .iwt-icon > img {
+    width: 18%;
+}
+
+
+
+/*.colo_text{
+
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}*/
+/*.colo_text:hover{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}*/
+.db-group {
+    font-size: 14px;
+    text-align: justify;
+    line-height:1.7!important;
+}
+.page-id-551 .wpb_wrapper > p {
+    padding-bottom:0px;
+}
+
+.page-id-551 .aligncenter.size-full.wp-image-1309 {
+    height:72px!important;
+}
+
+.home_abt{
+    padding: 20px 0;
+}
+/*.team-member > img{
+	height:90px!important
+    }
+*/
+.page-id-2342 .team-member > img {
+    height:215px!important;
+}
+.team-member > img {
+    margin: 0 auto!important;
+}
+/*.page-id-2822 .team-member > img {
+    height:220px!important;
+      width: 193px;
+    margin-left: 19px;
+}
+*/
+.slide_pad_0 .content {
+    padding: 0 !important;
+}
+
+.slide_pad_0 .content {
+    padding: 0 !important;
+}
+.proj_name {
+    background-color: rgba(172,132,46,0.75);
+    bottom: 20%;
+    left: 50px;
+    position: absolute;
+    width: 30%;
+}
+.proj_name h3 {
+    color: #fff;
+    font-size: 32px;
+    padding: 15px 10px;
+}
+.home_abt {
+    padding: 20px 0;
+}
+
+.margin_bot_0 {
+    margin-bottom: 0 !important;
+}
+
+.button_table {
+    font-weight: bold;
+    background-color:#000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button_table:hover {
+    color:#fefefe;
+}
+.page-id-1013 .wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+    margin-bottom:0px;
+}
+
+.text-ce {
+    text-align: center;
+}
+.dwnl-abt-db {
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+}
+
+.hdbg {
+    background-color:rgba(173,131,67,0.7);
+    padding: 0 10px !important;
+}
+
+.jobs-applynow > a {
+    background-color: #000;
+    border-radius: 4px;
+    color: #fff;
+    padding: inherit;
+}
+.jobs-applynow > a:hover{
+    color:#fefefe!important;
+}
+.page-id-2236 .container.main-content {
+    padding-top:148px!important;
+}
+.job-apply-table .button-primary{
+    background-color: #000;
+    font-size: 17px;
+}
+.job-apply-table .submit {
+    text-align:center;
+}
+.ascend .container-wrap .job-apply-table .button-primary{
+    border-radius:5px!important;
+}
+.job_head {
+    color: #fff;
+    background-color: #3a79af;
+    font-family: inherit;
+    font-size: 41px;
+    font-style: inherit;
+    margin: auto;
+    padding: 35px;
+    text-align: center;
+}
+.job_scs{
+    color: #333;
+    font-size: xx-large;
+    font-style: inherit;
+    font-family: inherit;
+    margin: auto;
+    padding: 0 0 30px;
+    text-align: center;
+}
+.jobman-message{
+    border: 0 none;
+    color:  #333;
+    font-size: xx-large;
+    font-style: inherit;
+    font-family: inherit;
+    line-height: 38px;
+    margin: auto;
+    padding: 40px 0 30px;
+    text-align: center;
+}
+.row > form {
+    padding: 30px 0 0;
+}
+.job-apply-table.table3 {
+    margin: 0 !important;
+}
+.at-content .container-wrap input[type="text"], .container-wrap textarea, .container-wrap input[type="email"], .container-wrap input[type="password"], .container-wrap input[type="tel"], .container-wrap input[type="url"], .container-wrap input[type="search"], .container-wrap input[type="date"]{
+    padding:6px!important;
+}
+.page-id-26 .width .wpcf7-form .wpcf7-form-control{
+    padding:6px!important;
+}
+/*---------justy all text-------------*/
+
+#cons-row-1  p,#cons-row3 p,#kit-row3 p,#kit-row5 p,#pm-row4 p,#qa-row1 p,#hs-row1 p,#dc-row2 p,#dc-row5 p,#dbc-row1 p,#kpe-row2 p,#kpe-row3 p,#kpe-row4 p,#kpe-row5 p,#kpe-row7 p,#mep-row2 p{
+    text-align: justify;
+}
+
+// end justy text--------
+
+//team member image------
+  .position1 {
+      height: 355px !important;
+  }
+.postion3 img {
+    height: 230px!important;
+}
+//end team member image------
+
+      /*----portfolio title top------*/
+  .portfolio-items .work-item.style-3 .vert-center, .portfolio-items .work-item.style-3-alt .vert-center, .portfolio-items .work-item.style-2[data-custom-content="on"] .vert-center {
+      top: 5% !important;
+  }
+.trans {
+    transition: all .2s ease-in-out;
+}
+/*---contact form----*/
+.page-id-26 .divider-border {
+    border: 2px solid #0085A1;
+}
+
+.correct img{
+    margin-left:-10px;
+}
+.page-id-2342 p{
+    padding-bottom: 5px;
+}
+//.page-id-2331 .center_icon .iwt-icon > img {
+  //  width: 23%!important;
+  //}
+//.page-id-2331 .row .col img {
+  //  height: 59px!important;
+  // margin-bottom: 10px!important;
+  //}
+
+/*------more projects table------*/
+
+.tablepress thead tr th {
+    border-right:3px solid #dddddd !important;
+    text-align: center;
+}
+.tablepress tbody tr.even td {
+    border-right:3px solid #dddddd !important;
+}
+.tablepress tbody tr.odd td {
+    border-right: 3px solid #dddddd !important;
+}
+body:not(.woocommerce-cart) .main-content th {
+    border-color: #dddddd !important;
+    text-align: center!important;
+    color:#000!important;
+    padding: 17px !important;
+}
+.thead {
+    border: 2px solid!important;
+}
+
+body:not(.woocommerce-cart) .main-content table {
+    border:3px solid #dddddd !important;
+    margin:20px 0 0 0!important;
+}
+
+body:not(.woocommerce-cart) .main-content tr th:first-child, body:not(.woocommerce-cart) .main-content tr td:first-child {
+    text-align: center!important;
+    border-right:3px solid #dddddd !important;
+}
+.tablepress tbody td, .tablepress tfoot th {
+    border-top:3px solid #dddddd !important;
+}
+.page-id-2212 .container .row:last-child, .page-id-2212 .wpb_wrapper .clear {
+    padding-bottom:30px;
+}
+.main-content .job-apply-table tr th, .main-content .job-apply-table tr td {
+    border: 3px solid #dddddd !important;
+}
+/*------------end of table-----------*/
+
+#spic .owl-theme .owl-nav [class*="owl-"]:first-child {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url("/horizantal/wp-content/uploads/2016/05/arrows.png") !important;
+    background-position: 100% 100% !important;
+    background-size: 100% auto;
+    height: 35px;
+    left: -30px;
+//left:auto;
+    margin-right: 3px;
+    transition: all 0.3s ease-in-out 0s;
+    width: 35px;
+}
+#spic .owl-theme .owl-nav [class*="owl-"]:last-child {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url("/horizantal/wp-content/uploads/2016/05/arrows.png") !important;
+    background-position: 50% 32% !important;
+    background-size: 100% auto;
+    margin-left: 3px;
+    right: -30px;
+    transition: all 0.3s ease-in-out 0s;
+    width: 35px;
+    height: 35px;
+}
+#ajax-content-wrap .wpb_wrapper span{
+    line-height:1 !important;
+}
+.page-id-1104 .row .col p:last-child {
+    line-height: 1.7 !important;
+}
+.page-id-1100 #page-header-bg[data-bg-pos="center"] .page-header-bg-image {
+    background-position: 0 !important;
+}
+/*.vert-center.hover{
+   display:none !important;
+}*/
+/*-----------portfolia image adding more----
+*/
+.single-portfolio .row .col img {
+    float:left;
+    padding:10px;
+}
+.single-portfolio .attachment-medium.size-medium {
+    height: 200px !important;
+    width: 300px !important;
+}
+.aligncenter.size-medium.wp-image-2454 {
+    height: 320px !important;
+    width: 275px !important;
+}
+.aligncenter.size-medium.wp-image-2461 {
+    height: 222px;
+    width: 342px !important;
+}
+
+/*-----end of pf innerpages----*/
+
+.page-id-1085 .attachment-medium.size-medium {
+    height: 220px !important;
+    width: auto !important;
+}
+
+
+/*---strip line----*/
+body.page .main-content h1 span q {
+    line-height: 1.2 !important;
+}
+p{
+    line-height: 1.7 !important;
+}
+
+.alusol{
+    background-color: #62abc2;
+    border-radius: 6px;
+    color: #fff;
+    padding: 10px;
+}
+
+.ion_img .cl-flipbox-front {
+    background-repeat: no-repeat;
+    background-size: 70% auto !important;
+}
+.ion_img .cl-flipbox-back {
+    background-repeat: no-repeat;
+    background-size: 70% auto !important;
+}
+#mep-row7full {
+    margin-bottom: 0;
+}
+#int-row3 {
+    margin-bottom: 0;
+}
+#pm-row1 {
+    margin-bottom: 0;
+}
+#pm-row2 img,#pm-row3 img {
+    height: 60px;
+    width: auto;
+}
+#pm-row4 {
+    margin-bottom: 0;
+}
+.image-bg {
+    background-size: 100% 103% !important;
+}
+.nectar-slider-wrap.first-nectar-slider{
+    margin-top: 45px;
+}
+#hom-row2-1 .cl-flipbox-front, .cl-flipbox-back{
+    background-repeat: no-repeat;
+    background-size: 78% auto !important;
+}
+.html5gallery-elem-img-3 div {
+    display: none !important;
+}
+/******port hide******/
+.cp-row2full{
+    display: none !important;
+}
+
+/******ad hide******/
+.wonderplugingallery a {
+    display: none !important;
+}
+.html5gallery-elem-img-13 div {
+    display: none !important;
+}
+/******end******/
+
+#top .slide-out-widget-area-toggle .closed .icon-reorder {
+    color: #000 !important;
+}
+
+#over-row1 {
+    margin-bottom: 0;
+}
+#oup-row1 {
+    margin-bottom: 0;
+}
+#cmp-row1{
+    margin-bottom: 0;
+}
+#cons-row-2 .attachment-medium.size-medium {
+    height: 200px !important;
+    width: 300px !important;
+}
+#cmp-row1 p ,#oup-row1 p ,#over-row1 p{
+    padding-bottom: 12px !important;
+}
+.single-portfolio #page-header-wrap {
+    height: 250px !important;
+}
+.single-portfolio .row .col.section-title h1{
+    font-size: 28px !important;
+}
+.single-portfolio .loaded {
+    /*background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/42D17BAA5.jpg");*/
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/04/projtit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: 232px;
+    overflow: visible;
+}
+.single-portfolio .at-content {
+    margin-top: 32px;
+}
+
+.single-portfolio #page-header-bg.loaded {
+    height: 155px !important;
+}
+.single-portfolio_item_list .col.span_6.section-title {
+    top: 145px !important;
+}
+.icon-salient-back-to-all::before {
+    display:none;
+}
+.single-portfolio #portfolio-nav #next-link a i, #portfolio-nav #prev-link a i {
+    font-weight: bolder;
+//color: #000;
+    color: #fff;
+}
+
+header#top nav ul li {
+    background: #3A79AF none repeat scroll 0 0;
+}
+
+header#top nav ul li:hover{
+    background: #3A79AF none repeat scroll 0 0;
+}
+header#top nav > ul > li {
+    border-right: 2px solid #fff;
+}
+header#top nav ul .current-menu-item {
+    background: #3A79AF none repeat scroll 0 0;
+}
+
+body #header-outer header#top nav ul li li a {
+    background: #fff none repeat scroll 0 0 !important;
+    color:#333!important;
+//line-height:1.2!important;
+}
+body #header-outer header#top nav ul li li a:hover {
+    background: #3A79AF none repeat scroll 0 0 !important;
+    color:#fff!important;
+}
+.huide_comp{
+    display:none!important;
+}
+
+#page-header-bg .col.span_6 {
+    text-align: left !important;
+    top: 75% ;
+}
+
+.page-header-bg-image {
+    background-position: center 90px!important;
+}
+
+.work-meta .title {
+    text-align: center;
+}
+body.single.single-portfolio #page-header-bg .col.span_6.section-title {
+    top: 40% !important;
+}
+body .wpb_row .tablepress tfoot th, body .wpb_row .tablepress thead th {
+    background-color: #29567C !important;
+    color: #fff !important;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+}
+.tablepress .odd td{
+    background-color: #3a79af!important;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.tablepress .odd td:hover {
+    background-color: #29353F!important;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.tablepress .even td{
+    background-color: #29353F!important;
+    text-align: center;
+    color:#fff;
+    vertical-align: middle;
+}
+.tablepress .even td:hover {
+    background-color: #3a79af!important;
+    text-align: center;
+    vertical-align: middle;
+    color:#fff;
+}
+.page-id-1104 .page-header-bg-image {
+    background-position: center 90px !important;
+    background-size: cover !important;
+}
+
+/*.page-id-1083 .page-header-bg-image {
+    background-position: center center !important;
+}*/
+
+.alusol:hover {
+    color:#000;
+}
+.page-id-2822 .img-with-animation.animated-in {
+    height: 321px !important;
+}
+.page-id-2822 p {
+    padding-bottom: 7px;
+}
+.page-id-1087 .attachment-medium.size-medium {
+    height: 199px !important;
+}
+.page-id-2822 .team-member .light,.position {
+    text-align: center;
+}
+.light {
+    text-align: center;
+}
+//.page-id-1087 .page-header-bg-image {
+  //     background-position: left center !important;
+  // }
+
+.des_cont {
+    border-bottom: 1px solid #ccc;
+    float: left;
+    padding: 16px 0 !important;
+    width: 100%;
+}
+
+.des_cont > p {
+    float: left;
+    padding: 0 !important;
+}
+.des_cont > span {
+    float: right;
+    margin-top: 2px;
+}
+.jobs-applynow > a {
+    background-color: #000;
+    border-radius: 4px;
+    color: #fff;
+    padding: inherit;
+}
+.des_cont span a {
+    background: #000 none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    padding: 7px;
+}
+.page-id-2235 .row > form {
+    margin-top: 4%;
+    padding-bottom: 10%;
+}
+.job-apply-table tr{
+    border:none !important;
+}
+.job-apply-table td{
+    border:none !important;
+}
+.job-apply-table th{
+    border:none !important;
+}
+.job-apply-table{
+    border:none !important;
+}
+
+
+#page-id-2822 .page-header-wrap {
+    height: 461px;
+}
+/********8.swiper-slide .image-bg {
+ //  background-size: contain !important;
+//}
+//.page-id-1089 .page-header-bg-image {
+ //   background-position: center 178px !important;
+  //  background-size: contain !important;
+//}
+*******/
+
+.page-id-947 .page-header-bg-image{
+    background-position: center 31px !important;
+}
+
+/*iframe{
+ height: 286.238px !important;
+ width: 512px !important;
+}*/
+#ajax-content-wrap .cl-flipbox-yflank ,.cl-flipbox-front,.cl-flipbox-back {
+    border-color: #666 !important;
+}
+.dbimg {
+    height: 196px !important;
+    width: 45% !important;
+}
+.dbimgbox {
+    margin-left:0px !important;
+}
+body .page-id-1104 .vc_row-fluid .vc_col-sm-8 {
+    width: 78.468% !important;
+}
+.page-id-2331 .page-header-bg-image {
+    background-position: center -148px !important;
+}
+
+.page-id-1013 .page-header-bg-image,.page-id-1015 .page-header-bg-image{
+    background-position: center 57px !important;
+}
+.page-id-1083 .page-header-bg-image {
+    background-position: center top !important;
+    background-size: cover;
+}
+.page-id-1091 .page-header-bg-image{
+    background-position: center center !important;
+}
+
+
+element.style {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/05/5958738.jpg");
+}
+#page-header-wrap #page-header-bg.loaded[data-animate-in-effect="zoom-out"] .page-header-bg-image, #page-header-wrap #page-header-bg.loaded[data-animate-in-effect="zoom-out"] .nectar-video-wrap, .first-nectar-slider.nectar-slider-wrap.loaded[data-animate-in-effect="zoom-out"] .image-bg, .first-nectar-slider.nectar-slider-wrap.loaded[data-animate-in-effect="zoom-out"] .video-wrap, .parallax_slider_outer .nectar-slider-wrap.loaded[data-animate-in-effect="zoom-out"] .image-bg, .parallax_slider_outer .nectar-slider-wrap.loaded[data-animate-in-effect="zoom-out"] .video-wrap, .nectar-recent-posts-slider.loaded[data-animate-in-effect="zoom-out"] .nectar-recent-post-bg {
+    transform: scale(1) translateZ(0px);
+}
+#page-header-wrap #page-header-bg[data-animate-in-effect="zoom-out"] .page-header-bg-image, #page-header-wrap #page-header-bg[data-animate-in-effect="zoom-out"] .nectar-video-wrap, .first-nectar-slider.nectar-slider-wrap[data-animate-in-effect="zoom-out"] .image-bg, .first-nectar-slider.nectar-slider-wrap[data-animate-in-effect="zoom-out"] .video-wrap, .parallax_slider_outer .nectar-slider-wrap[data-animate-in-effect="zoom-out"] .image-bg, .parallax_slider_outer .nectar-slider-wrap[data-animate-in-effect="zoom-out"] .video-wrap, .nectar-recent-posts-slider[data-animate-in-effect="zoom-out"] .nectar-recent-posts-slider-inner:not(.loaded) .nectar-recent-post-bg {
+    transform: scale(1.11) translateZ(0px);
+    transition: all 0.95s cubic-bezier(0.3, 0.58, 0.42, 0.9) 0s;
+}
+#page-header-bg[data-bg-pos="center"] .page-header-bg-image {
+    background-position: center center;
+}
+.page-id-1085 .page-header-bg-image{
+    background-position: center center !important;
+    background-size: cover;
+}
+
+.page-id-2235 .page-header-bg-image {
+    background-position: center -71px !important;
+}
+.page-id-1087 .page-header-bg-image{
+    background-size: cover;
+}
+.page-id-551 .vert-center {
+    background-color: rgba(0, 0, 0, 0.52)!important;
+    padding: 0 7px;
+}
+.portfolio-items .col .work-item.style-3 .work-info-bg {
+    opacity: 0 !important;
+}
+.portfolio-items .work-info{
+    height: auto !important;
+    bottom: 0 !important;
+    top: 80%;
+}
+.home_abt > span {
+    font-weight: 500;
+}
+#hom-row4 .cl-flipbox-front,#hom-row5 .cl-flipbox-front,#hom-row4 .cl-flipbox-back , #hom-row5 .cl-flipbox-back {
+    padding-top:20px !important;
+    padding-bottom:20px !important;
+    height: 220px !important;
+}
+
+div[class^="html5gallery-elem-img-"] a:last-child div {
+    display: none !important;
+}
+
+
+.fgf .row-bg,.page .stripal{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a3a3a9+0,73b1e7+24,4880ad+50,5ca4e0+79,a3a3a9+100 */
+    background: rgb(163,163,169); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(163,163,169,1) 0%, rgba(115,177,231,1) 24%, rgba(72,128,173,1) 50%, rgba(92,164,224,1) 79%, rgba(163,163,169,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(163,163,169,1) 0%,rgba(115,177,231,1) 24%,rgba(72,128,173,1) 50%,rgba(92,164,224,1) 79%,rgba(163,163,169,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(163,163,169,1) 0%,rgba(115,177,231,1) 24%,rgba(72,128,173,1) 50%,rgba(92,164,224,1) 79%,rgba(163,163,169,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3a3a9', endColorstr='#a3a3a9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#footer-outer, #footer-outer a:{
+    color:#000 !important;
+}
+/*#footer-outer .row > .col:hover{
+   background-color:rgba(0,0,0,0.54);
+}
+*/
+#footer-outer, #footer-outer a:hover{
+    color: #3A79AF!important;
+}
+
+#footer-outer .row .col.span_3.one-fourths {
+//  padding-left: 25px!important;
+    height: 286px;
+    with:20%;
+    float:left;
+// padding-top: 50px;
+}
+#copyright .container {
+    padding: 15px 0 15px 0;
+}
+
+#footer-widgets {
+    background: rgba(0, 1, 1, 0) none repeat scroll 0 0 !important;
+    position:relative;
+}
+
+#copyright {
+    background: rgba(0, 0, 0, 0.64) none repeat scroll 0 0 !important;
+    color:#fff !important;
+}
+/*#footer-widgets #menu-item-2168 > a {
+    color: red;
+    transition: all 0.3s ease-in 0s;
+}
+#menu-item-2168 > a:hover {
+    color: green;
+    transition: all 0.3s ease-in 0s;
+    margin-left: 30px;
+    padding-left: 40px;
+}
+*/
+
+/*
+ #footer-outer  a:hover {
+   transition: all 0.3s ease-in 0s;
+    margin-left:45px !important;
+    padding-left: 20px !important;
+} */
+
+#ajax-content-wrap #footer-outer .menu-about-menu-container li:hover{
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/Construction-Helmet-mim.png");
+    background-postion:left;
+    background-repeat:no-repeat;
+    margin-left: 0px ;
+    padding-left: 33px !important;
+    transition: all 0.3s ease-in 0s;
+}
+#ajax-content-wrap #footer-outer .menu-services-menu-container li:hover{
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/Construction-Helmet-mim.png");
+    background-postion:left;
+    background-repeat:no-repeat;
+    margin-left: 0px ;
+    padding-left: 33px !important;
+    transition: all 0.3s ease-in 0s;
+}
+#ajax-content-wrap #footer-outer .menu-projects-menu-container li:hover{
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/Construction-Helmet-mim.png");
+    background-postion:left;
+    background-repeat:no-repeat;
+    margin-left: 0px ;
+    padding-left: 33px !important;
+    transition: all 0.3s ease-in 0s;
+}
+
+
+
+#footer-outer .widget.widget_nav_menu {
+    padding-left: 25px;
+}
+
+.strip > span {
+    color :#fff!important;
+    font-family: Comic Sans MS !important;
+}
+/*.stripal {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2013/06/brushed-silver-metallic-background.png") !important;
+}
+*/
+.stripal {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2013/06/strip-bg.jpg") !important;
+}
+.team-member .light,.team-member .position{
+    font-weight: bold !important;
+}
+.stripal {
+    display: table;
+    height: 100px;
+    overflow: hidden;
+}
+.stripal .col.span_12.dark.center ,.stripal .col.span_12.dark.left {
+    display: table-cell;
+    vertical-align: middle;
+}
+.page-id-2879 .container .row {
+    padding-bottom: 25px;
+}
+.ascend .container-wrap .job-apply-table .button-primary:hover{
+    background-color:#000;
+    color:#fefefe;
+}
+
+.col.span_3.one-fourths.right-edge.col_last {
+    /* background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/897.png");*/
+    background-position: 129px 95px;
+    background-repeat: no-repeat;
+    background-size: 62% auto;
+// padding-left: 20px;
+}
+/*.col.span_3.one-fourths.right-edge.col_last {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/897.png");
+    background-position: -10px 82px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}*/
+#footer-outer #footer-widgets .container {
+    padding :0px !important;
+}
+#footer-outer .widget.widget_nav_menu {
+    padding-left:0px!important;
+}
+.col.span_3.one-fourths.right-edge {
+    margin:0px;
+}
+.col.span_3.one-fourths.right-edge.col_last{
+    margin:0px;
+}
+#footer-outer .col.span_3 {
+    margin-right:0px;
+}
+#ajax-content-wrap  header#top nav ul #search-btn a span {
+    color:#3A79AF!important;
+}
+.icon-salient-search::before {
+    color:#000!important
+}
+
+#footer-widgets .container {
+    width: 100%;
+}
+#footer-widgets .col.span_3.one-fourths.right-edge.col_last {
+    width: 32%;
+}
+#footer-widgets .col.span_3{
+    width:21%;
+}
+#footer-widgets {
+    background: rgba(0, 1, 1, 0.23) none repeat scroll 0 0 !important;
+}
+/************************ top header down*************************/
+#page-header-wrap {
+    margin-top: 0px;
+}
+/************************ top header down*************************/
+
+
+/******************menu icon start**************/
+#menu-item-527 > a {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/home.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 29% auto;
+    margin: 0 10px 0 3px !important;
+    padding-left: 21px !important;
+}
+#menu-item-1961 > a {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/about-us.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 19% auto;
+    margin: 0 10px 0 3px !important;
+    padding-left: 21px !important;
+}
+#menu-item-540 > a {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/constructor-with-hat-and-a-gear.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 20% auto;
+    margin: 0 10px 0 3px !important;
+    padding-left: 21px !important;
+}
+#menu-item-538 > a {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/wall.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 22% auto;
+    margin: 0 10px 0 3px !important;
+    padding-left: 21px !important;
+}
+#menu-item-1097 > a {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/medal.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 10% auto;
+    margin: 0 10px 0 3px !important;
+    padding-left: 21px !important;
+}
+#menu-item-1096 > a {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/icon3.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 12% auto;
+    margin: 0 10px 0 3px !important;
+    padding-left: 21px !important;
+}
+#menu-item-2280 > a {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/construction-worker1.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 21% auto;
+    margin: 0 10px 0 3px !important;
+    padding-left: 21px !important;
+}
+
+#menu-item-535 >a {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/06/telephone.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 14% auto;
+    margin: 0 10px 0 3px !important;
+    padding-left: 21px !important;
+}
+/******************menu icon end**************/
+.sub-menu {
+    top: 40px !important;
+}
+/*
+#nav_menu-2 > h4 {
+     background-color: #0abbb5;
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/07/About3.jpg");
+    background-position: 80px 0;
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    font-size: 0 !important;
+    height: 49px;
+    width: auto;
+}*/
+#nav_menu-2 > h4 {
+    background-color: #158e83;
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/07/about_footer.jpg");
+    background-position: 100px 7px !important;
+    background-repeat: no-repeat;
+    background-size: 75% auto;
+    font-size: 0 !important;
+    height: 49px;
+    width: auto;
+}
+/*#nav_menu-3 > h4 {
+     background-color: #256d7c;
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/07/servicesnew.jpg");
+    background-position: 0 -2px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-size: 0 !important;
+    height: 49px;
+    width: auto;
+}*/
+
+#nav_menu-3 > h4 {
+    background-color: #326795;
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/07/services_footer.jpg");
+    background-position: 36px 7px !important;
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    font-size: 0 !important;
+    height: 49px;
+    width: auto;
+}
+/*#nav_menu-4 > h4 {
+    background-color: #0073CE;
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/07/projects3.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 0 !important;
+    height: 49px;
+    width: auto;
+}*/
+#nav_menu-4 > h4 {
+    background-color: #055b54;
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/07/projects_footer.jpg");
+    background-position: 32px 7px !important;
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    font-size: 0 !important;
+    height: 49px;
+    width: auto;
+}
+#text-5 > h4 {
+    background-color: #003152;
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/07/follow_us_footer.jpg");
+    background-position: 61px 8px!important;
+    background-repeat: no-repeat;
+    background-size: 59% auto;
+    font-size: 0 !important;
+    height: 49px;
+    width: 100%;
+}
+/*#text-5 > h4 {
+    background-color: #003152;
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/07/Follow-us1-1.jpg");
+    background-position: -10px -4px;
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    font-size: 0 !important;
+    height: 49px;
+    width: auto;
+}*/
+#footer-outer ol, ul {
+    padding-left: 50px;
+}
+#first_id {
+    width: 26% !important;
+}
+#footer-outer ol, #first_id ul {
+    padding-left: 0px !important;
+}
+.list_contact{
+    padding-left:0px;
+}
+.footer-outer-top.text-center {
+    background-color: #fafafa;
+    padding: 30px 10px;
+    text-align: center;
+    background-image:url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/07/footer_top_bg_trans.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:100% 100%;
+}
+.dbc_footer_logo {
+    width: 150px;
+}
+/*.page-id-1089 #page-header-bg .page-header-bg-image{
+  background-position: 0 -3px !important;
+}
+*/
+#first_id .menu-about-menu-container:hover{
+    background-color:rgba(0,0,0,0.54);
+}
+#first_id .menu-about-menu-container {
+    float: right;
+    height: 224px;
+    margin-top: -11px;
+    width: 79%;
+    padding-top: 20px;
+    padding-left: 11px;
+}
+#footer-outer .row > .col .menu-services-menu-container:hover{
+    background-color:rgba(0,0,0,0.54);
+}
+#footer-outer .row > .col .menu-services-menu-container {
+    float: right;
+    height: 224px;
+    margin-top: -11px;
+    width: 100%;
+    padding-top: 20px;
+}
+#footer-outer .row > .col .menu-projects-menu-container:hover{
+    background-color:rgba(0,0,0,0.54);
+}
+#footer-outer .row > .col .menu-projects-menu-container {
+    float: right;
+    height: 224px;
+    margin-top: -11px;
+    width: 100%;
+    padding-top: 20px;
+}
+#footer-outer #last_id .textwidget {
+    float: left;
+    height: 224px;
+    margin-top: -11px;
+    width: 79%;
+    padding-top: 20px;
+}
+#footer-outer #last_id .textwidget:hover{
+    background-color:rgba(0,0,0,0.54);
+}
+#footer-outer .col.span_3.one-fourths.right-edge.col_last a:hover {
+    margin:0 !important;
+    padding: 0 !important;
+    transition: none 0s ease 0s !important;
+}
+#footer-outer .col.span_3.one-fourths.right-edge.col_last a{
+    margin:0 !important;
+    padding: 0 !important;
+    transition: none 0s ease 0s !important;
+}
+#first_id .menu-about-menu-container {
+    padding-left: 49px;
+}
+
+#footer-outer li > a {
+    background-position: 20px center;
+    padding-left: 60px;
+    transition: all 0.3s ease-in 0s;
+}
+#footer-outer #last_id #text-6 .textwidget:hover {
+    background-color:transparent!important
+}
+.container, .woocommerce-tabs .full-width-content .tab-container, .nectar-recent-posts-slider .flickity-page-dots {
+    max-width:100%;
+    min-width: 100% important;
+}
+
+#top nav ul li a {
+    font-size: 13px !important;
+}
+header#top nav > ul {
+    position: relative;
+    top: 5px;
+}
+
+header#top #logo img {
+    padding: 0px;
+}
+
+.portflio_item_list .data_image_port {
+    height: 100%;
+    width: 100%;
+}
+
+.data_image_port:hover {
+    transform:scale(1.25);
+    -webkit-transform:scale(1.25);
+    transition: transform 0.5s linear;
+    -webkit-transition: transform 0.5s linear;
+}
+.data_content_port {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    transition: transform 0.5s linear;
+    -webkit-transition: transform 0.5s linear;
+
+}
+.portfolio_item_image_container {
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.page .row .col .data_content_port {
+    background-color: rgba(3, 3, 3, 0.75);
+    bottom: 5px;
+    color: #fff;
+    height: auto;
+    padding: 10px !important;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.portfolio_item_image_container {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.portflio_item_link {
+    position: relative;
+    vertical-align: middle;
+}
+.portfolio_item_list {
+    display: inline-block;
+    height: 230px;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0 !important;
+    vertical-align: middle;
+    width: 25%;
+}
+.data_image_port {
+    height: 230px !important;
+    width: 100% !important;
+}
+
+.page-id-2822 p {
+    text-align: justify;
+}
+.single-portfolio .page-header-bg-image {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/04/projtit.jpg")!important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+.single.single-portfolio .page-header-bg-image {
+    display: none !important;
+}
+
+/***************alteration due to log size ***  dummy*********
+       #page-header-bg .col.span_6 {
+           top: 60% !important;
+       }
+         #page-header-wrap {
+              margin-top: -28px;
+         }
+*************alteration due to log size end************/
+.page-id-2235 #page-header-wrap ,.page-id-1091 #page-header-wrap ,.page-id-1089 #page-header-wrap ,.page-id-1072 #page-header-wrap ,.page-id-1083 #page-header-wrap ,.page-id-1085 #page-header-wrap ,.page-id-2331 #page-header-wrap ,.page-id-1100 #page-header-wrap ,.page-id-947 #page-header-wrap ,.page-id-1013 #page-header-wrap ,.page-id-1015 #page-header-wrap ,.page-id-1074 #page-header-wrap ,.page-id-2822 #page-header-wrap {
+    margin-top: 120px;
+}
+
+.page-id-26 .container-wrap {
+    margin-top: 175px !important;
+}
+
+
+.page-id-2235 .page-header-bg-image{
+    background-position: 0 -166px !important;
+}
+.page-id-1089 .page-header-bg-image{
+    background-position: 0 -110px !important;
+}
+.page-id-1072 .page-header-bg-image {
+    background-position: 0px 0px !important;
+}
+.page-id-947 .page-header-bg-image {
+    background-position: 0 -50px !important;
+}
+
+.page-id-1013 .page-header-bg-image ,.page-id-1015 .page-header-bg-image ,.page-id-1074 .page-header-bg-image ,.page-id-2212 .page-header-bg-image {
+    background-position: 0px 0px !important;
+}
+
+.page-id-2822 .page-header-bg-image {
+    background-position: center -88px !important;
+    background-size: cover !important;
+}
+.page-id-1091 .hdbg{
+    background-color:rgba(173,131,67,0.9)!important;
+}
+page-id-1104 .hdbg{
+    background-color:rgba(173,131,67,0.9)!important;
+}
+.page-id-1089 .hdbg{
+    background-color:rgba(173,131,67,0.6)!important;
+}
+.page-id-2342 .hdbg{
+    background-color:rgba(173,131,67,0.8)!important;
+}
+.page-id-3317 .hdbg{
+    background-color:rgba(173,131,67,0.85)!important;
+}
+.page-id-1946 .hdbg{
+    background-color:rgba(173,131,67,0.9)!important;
+}
+
+.page-id-1089 .page-header-bg-image {
+    background-position: -130px 0 !important;
+}
+#footer-outer {
+    background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2013/06/strip-bg.jpg");
+    background-repeat: no-repeat !important;
+    background-position:center center;
+    background-size:100% 100%;
+}
+.teamaj {
+    padding: 57px 0;
+}
+
+.page-id-2212 #page-header-wrap {
+    margin-top: 94px;
+}
+/**********header alter space*************/
+
+.page-id-2235 #page-header-wrap, .page-id-1091 #page-header-wrap, .page-id-1089 #page-header-wrap, .page-id-1072 #page-header-wrap, .page-id-1083 #page-header-wrap, .page-id-1085 #page-header-wrap, .page-id-2331 #page-header-wrap, .page-id-1100 #page-header-wrap, .page-id-947 #page-header-wrap, .page-id-1013 #page-header-wrap, .page-id-1015 #page-header-wrap, .page-id-1074 #page-header-wrap, .page-id-2822 #page-header-wrap {
+    margin-top: 90px;
+}
+.charmegggg .team-member > img {
+    height: 310px !important;
+}
+
+
+header nav ul.buttons {
+    padding-left: 0;
+}
+
+.nectar-slider-loading{
+    background-image:none !important;
+}
+
+/**********header alter space end *************/
+
+/************************************ responsive ****************************************/
+/********SLIDER START**********/
+@media only screen and (min-width: 1700px) and (max-width: 2800px){
+    .swiper-container, .swiper-slide {
+        height: 639px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        height: 635px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 1650px) and (max-width: 1699px){
+    .swiper-container, .swiper-slide {
+        height: 604px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        height: 610px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (min-width: 1495px) and (max-width: 1649px){
+    .swiper-container, .swiper-slide {
+        height: 530px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        height:542px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        margin-top: 95px;
+    }
+}
+
+@media only screen and (min-width: 1481px) and (max-width: 1495px){
+    .swiper-container, .swiper-slide {
+        height: 505px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        height:500px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (min-width: 1281px) and (max-width:1480px){
+    .swiper-container, .swiper-slide {
+        height:450px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        height: 445px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        margin-top: 75px;
+    }
+    body[data-bg-header="true"] .container-wrap{
+        /* margin-top: 30px !important;*/
+    }
+}
+
+@media only screen and (min-width: 1252px) and (max-width:1280px){
+    .nectar-slider-wrap.first-nectar-slider {
+        margin-top: 75px;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        height: 435px !important;
+    }
+    .swiper-container, .swiper-slide {
+        height: 430px !important;
+    }
+}
+
+@media only screen and (min-width: 1130px) and (max-width:1251px){
+    .swiper-container, .swiper-slide {
+        height: 330px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        height: 325px !important;
+    }
+
+}
+/****************************slider mine resp*********************/
+
+@media only screen and (min-width: 1201px) and (max-width:1280px)  {
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        height: 385px !important;
+    }
+    .swiper-container, .swiper-slide {
+        height: 390px !important;
+    }
+    #header-outer[data-lhe="animated_underline"] header#top nav > ul > li > a {
+        font-size: 11px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider {
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (min-width: 1130px) and (max-width:1200px){
+    #header-outer[data-lhe="animated_underline"] header#top nav > ul > li > a {
+        font-size: 10px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider.loaded {
+        height: 385px !important;
+    }
+    .swiper-container, .swiper-slide {
+        height: 390px !important;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width:1129px) {
+    #header-outer[data-lhe="animated_underline"] header#top nav > ul > li > a {
+        font-size: 9px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider {
+        height: 385px !important;
+    }
+    .swiper-container, .swiper-slide {
+        height: 390px !important;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width:1000px) {
+    .nectar-slider-wrap.first-nectar-slider {
+        height: 420px !important;
+    }
+    .swiper-container, .swiper-slide {
+        height: 422px !important;
+    }
+
+}
+
+/**************************end*********************************************************/
+
+@media only screen and (min-width: 904px) and (max-width:999px){
+
+    #header-outer[data-lhe="animated_underline"] header#top nav > ul > li > a {
+        font-size: 9px !important;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width:869px){
+    #header-outer header#top nav > ul > li > a{
+        font-size: 9px !important;
+    }
+    .swiper-container, .swiper-slide {
+        height: 550px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider {
+        height: 540px !important;
+    }
+}
+
+@media only screen and (min-width: 979px) and (max-width:1129px){
+    /*.swiper-container, .swiper-slide {
+        height: 455px !important;
+    }
+    .nectar-slider-wrap.first-nectar-slider {
+        height: 450px !important;
+    }*/
+    #header-outer header#top nav > ul > li > a{
+        font-size: 9px !important;
+    }
+}
+
+
+/********SLIDER END**********/
+@media only screen and (min-width:700px) and (max-width:1000px){
+    #footer-widgets #text-6 .hat_img > img {
+        float: right;
+        margin-top: 30px !important;
+        width: 60% !important;
+    }
+    .page-id-2342 #page-header-wrap{
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    #footer-widgets #nav_menu-2 > h4 {
+        background-position: -17px 6px !important;
+        background-size: 48% auto !important;
+    }
+    #footer-widgets {
+        background: #363636 none repeat scroll 0 0 !important;
+    }
+    #footer-widgets #nav_menu-3 > h4 {
+        background-position: 0 6px !important;
+        background-size: 48% auto !important;
+    }
+    #footer-widgets #nav_menu-4 > h4{
+        background-position: 0 6px !important;
+        background-size: 48% auto !important;
+    }
+    #footer-widgets #text-5 > h4{
+        background-position: 11px 6px !important;
+        background-size: 48% auto !important;
+    }
+    #page-header-bg[data-parallax="0"] {
+        margin-top: -56px !important;
+    }
+    .page-id-1104 #page-header-wrap {
+        margin-top: 30px;
+    }
+    .page-id-1089 .page-header-bg-image {
+        background-position: 0 center !important;
+    }
+    .page-id-26 .container-wrap {
+        margin-top:119px !important
+    }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 2900px){
+
+    .home .at-content {
+        background: #fff none repeat scroll 0 0;
+        padding-top: 20px;
+    }
+    #footer-outer .container {
+        max-width: 100%;
+        width: 100% !important;
+    }
+    .menu-services-menu-container , .menu-services-menu-container, .menu-projects-menu-container, .textwidget{
+        height: 240px;
+    }
+    #text-5 > h4 {
+        background-size: 43% auto;
+    }
+    #nav_menu-3 > h4 {
+        background-position: 49% 0;
+        background-size: 68% auto;
+    }
+    #nav_menu-4 > h4 {
+        background-position: 51px 0;
+        background-size: 70% auto;
+    }
+    #nav_menu-2 > h4 {
+        background-size: 56% auto;
+        background-position: 81% 0;
+    }
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 700px){
+    #footer-widgets .container {
+        width: 420px !important;
+    }
+    .portfolio_item_list {
+        width: 50% !important;
+    }
+    #footer-widgets #text-6 .hat_img > img {
+        float: right;
+        margin-top: 30px !important;
+        width: 64% !important;
+    }
+    .page #footer-outer #footer-widgets .col {
+        height: auto !important;
+        margin-bottom: 10px !important;
+        width: 100% !important;
+    }
+    #first_id .menu-about-menu-container{
+        width:100% !important;
+        height:auto !important;
+    }
+    .hat_img {
+        position: relative !important;
+        right: 0 !important;
+        top: 0 !important;
+    }
+    #footer-outer .col.span_3.one-fourths.right-edge {
+        height: auto !important;
+    }
+    #footer-outer {
+        background-color: transparent !important;
+        background-image: url("http://dbconstruction.urbansoft.cc/horizantal/wp-content/uploads/2016/07/field.jpg") !important;
+        background-position: center bottom !important;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    #footer-outer #last_id .textwidget{
+        height:auto !important;
+        width: 100% !important;
+    }
+    #footer-outer .row > .col .menu-projects-menu-container{
+        height: auto !important;
+    }
+    #footer-outer .row > .col .menu-services-menu-container{
+        height: auto !important;
+    }
+    #header-outer #top .slide-out-widget-area-toggle .icon-reorder {
+        color: black !important;
+    }
+    #first_id .menu-about-menu-container {
+        height: auto !important;
+        width: 100% !important;
+    }
+    .hat_img > img {
+        float: right;
+        width: 150px !important;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+    .hat_img {
+        margin-top: 27px;
+    }
+    .home .at-content {
+        background: #fff none repeat scroll 0 0;
+        padding-top: 45px;
+    }
+    #logo img{
+        height: 75px !important;
+    }
+
+    nav ul.buttons {
+        padding: 0;
+    }
+    #top nav .sf-menu li a {
+        margin-right: 0 !important;
+    }
+    #header-outer[data-lhe="animated_underline"] header#top nav > ul > li > a{
+        font-size: 11px ;
+        padding: 10px 8px 10px 17px !important;
+    }
+    #search-btn a {
+        padding: 0 !important;
+    }
+    header#top nav > ul{
+        top:0px !important;
+        height: 80px !important;
+        margin-top: 0px !important;
+        padding-top:20px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px){
+
+    .home .at-content {
+        background: #fff none repeat scroll 0 0;
+        padding-top: 15px;
+    }
+    #logo img{
+        height: 75px !important;
+    }
+    nav ul.buttons {
+        padding: 0;
+    }
+    #top nav .sf-menu li a {
+        margin-right: 0 !important;
+    }
+    #header-outer[data-lhe="animated_underline"] header#top nav > ul > li > a{
+        font-size: 13px !important;
+        padding: 10px 9px 10px 16px !important;
+    }
+    #search-btn a {
+        padding: 0 !important;
+    }
+    header#top nav > ul{
+        top:0px !important;
+        height: 80px !important;
+        margin-top: 0px !important;
+        padding-top:20px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #slide-out-widget-area.slide-out-from-right {
+        background-color: #3a79af !important;
+    }
+    #slide-out-widget-area .inner .off-canvas-menu-container li a {
+        font-size:15px !important;
+    }
+    header#top #logo .retina-logo {
+        display: block !important;
+        height: 54px !important;
+        top: -10px !important;
+    }
+    #top .slide-out-widget-area-toggle .closed .icon-reorder {
+        color: #000 !important;
+    }
+    .home .at-content {
+        background: #fff none repeat scroll 0 0;
+        padding-top: 63px;
+    }
+    #footer-widgets .container .col {
+        width: 48% !important;
+    }
+    .hat_img {
+        right: 7px;
+        top: 126px;
+    }
+    #first_id .menu-about-menu-container ,#footer-outer #last_id .textwidget{
+        width: 100%;
+    }
+    #nav_menu-3 > h4 {
+        background-position: 91px 3px !important;
+        background-size: 54% auto;
+    }
+    #nav_menu-4 > h4 {
+        background-position: 109px 5px !important;
+        background-size: 47% auto;
+
+    }
+    #text-5 > h4 {
+        background-position: 116px 8px !important;
+    }
+    #nav_menu-2 > h4{
+        background-position: 100px 1px !important;.
+    background-size: 54% auto;
+    }
+
+}
+
+@media only screen and (min-width: 699px) and (max-width: 799px){
+    .portfolio_item_list {
+        width: 50% !important;
+    }
+    #footer-widgets .container .col {
+        width: 48% !important;
+    }
+    #text-5 > h4 {
+        background-size: 69% auto;
+        background-position: 62px 0;
+    }
+    .hat_img {
+        top: 118px;
+    }
+    #nav_menu-2 > h4 {
+        background-position: 52% 0;
+        background-size: 68% auto;
+    }
+}
+
+@media only screen and (max-width: 797px) {
+    #nav_menu-2 > h4 {
+        background-position: 33px 8px !important;
+    }
+    #nav_menu-3 > h4 {
+        background-position: 36px 9px !important;
+        background-size: 70% auto;
+    }
+    #nav_menu-4 > h4 {
+        background-position: 34px 9px !important;
+        background-size: 70% auto;
+    }
+    #text-5 > h4 {
+        background-position: 37px 8px !important;
+    }
+    .hat_img{
+        position: absolute;
+        right: -91px;
+        top: 140px;
+    }
+    .hat_img > img {
+        width: 160px !important;
+    }
+    #slide-out-widget-area {
+        background-color: #3a79af !important;
+    }
+    .hat_img > img {
+        width:150px!important;
+        float: right;
+    }
+
+
+}
+
+/************respo port tittle******/
+@media only screen and (min-width:560px) and (max-width: 820px) {
+    .data_content_port {
+        font-size: 11px;
+    }
+}
+
+/************respo port tittle******/
+
+@media only screen and (min-width:1360px) and (max-width:1480px){
+    .portfolio_item_list {
+        display: inline-block;
+        height: 250px;
+        margin: 0 !important;
+        overflow: hidden;
+        padding: 0 !important;
+        vertical-align: middle;
+        width: 25%;
+    }
+    .data_image_port {
+        height: 250px !important;
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width:1481px) and (max-width:2480px){
+    .portfolio_item_list {
+        display: inline-block;
+        height: 280px;
+        margin: 0 !important;
+        overflow: hidden;
+        padding: 0 !important;
+        vertical-align: middle;
+        width: 25%;
+    }
+    .data_image_port {
+        height: 280px !important;
+        width: 100% !important;
+    }
+    #page-header-wrap {
+        margin-top: 4px;
+    }
+    .page-id-2235 #page-header-wrap, .page-id-1091 #page-header-wrap, .page-id-1089 #page-header-wrap, .page-id-1072 #page-header-wrap, .page-id-1083 #page-header-wrap, .page-id-1085 #page-header-wrap, .page-id-2331 #page-header-wrap, .page-id-1100 #page-header-wrap, .page-id-947 #page-header-wrap, .page-id-1013 #page-header-wrap, .page-id-1015 #page-header-wrap, .page-id-1074 #page-header-wrap, .page-id-2822 #page-header-wrap {
+        margin-top: 94px;
+    }
+    #nav_menu-2 > h4 {
+        background-position: 100px -1px !important;
+    }
+    #nav_menu-3 > h4 ,#nav_menu-4 > h4{
+        background-position: 36px 0px !important;
+    }
+    #text-5 > h4{
+        background-position: 60px 0 !important;
+    }
+
+}
+
